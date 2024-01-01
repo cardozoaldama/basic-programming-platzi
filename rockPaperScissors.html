@@ -17,42 +17,38 @@
         */
         return Math.floor(Math.random() * (max - min + 1) + min)
       }
+      // A function called choose:
+      function choose(move)
+      {
+        let result = "";
+        // For the player and PC.
+        if(move == 1) 
+        {
+          result = "ROCK";
+        } 
+        else if (move == 2) 
+        {
+          result = "PAPER";
+        } 
+        else if (move == 3) 
+        {
+          result = "SCISSORS";
+        } 
+        else 
+        {
+          result = "LOOSER!";
+        }
+        return result;
+      }
       // The 1 is for rock, the 2 is for paper, the 3 is for scissors:
       let player = 0;
       let computer = randomNumber(1, 3);
       // The player should choose one number:
       player = prompt("Choose: 1 for rock, 2 for paper, 3 for scissors.");
+      // Using our function:
+      alert("Computer choose: " + choose(computer));
+      alert("You choose: " + choose(player));
       // CONDITIONALS:
-      // For the player.
-      if(player == 1) 
-      {
-        alert("You choose: ROCK");
-      } 
-      else if (player == 2) 
-      {
-        alert("You choose: PAPER");
-      } 
-      else if (player == 3) 
-      {
-        alert("You choose: SCISSORS");
-      } 
-      else 
-      {
-        alert("You choose: LOOSE!");
-      }
-      // For the computer:
-      if(computer == 1) 
-      {
-        alert("You choose: ROCK");
-      } 
-      else if (computer == 2) 
-      {
-        alert("You choose: PAPER");
-      } 
-      else if (computer == 3) 
-      {
-        alert("You choose: SCISSORS");
-      }
       // The combat begins here:
       if (computer == player) 
       {
