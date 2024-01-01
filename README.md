@@ -1,3 +1,4 @@
-# basic-programming-platzi
+# Basic Programming with Platzi
 
-En este repositorio, voy a subir proyectos y ejercicios que estoy aprendiendo en Programación Básica directamente de Platzi. Todos sus contenidos, imágenes, y varios artículos se le darán créditos a sus respectivos autores.
+In this repository, I will upload projects and exercises that I am learning in Basic Programming directly from Platzi. All its content, images, and various articles will be credited to their respective authors.
+
